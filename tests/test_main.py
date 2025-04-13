@@ -11,7 +11,7 @@ def test_read_root():
 def test_ping():
     response = client.get("/ping")
     assert response.status_code == 200
-    assert response.json() == {"message": "pong"}
+    assert response.json() == {"message": "pong second time"}
 
 def test_hello_name():
     response = client.get("/hello/Alex")
