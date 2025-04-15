@@ -18,7 +18,7 @@ A simple, production-ready FastAPI app with CI/CD, code coverage, and EC2 deploy
 
 ## ✅ Features
 
-- FastAPI application with `/` and `/ping` routes
+- FastAPI application with `/` and `/ping` routes and `/hello/name` routes
 - Containerized using Docker
 - CI/CD pipelines with GitHub Actions:
   - Runs tests on every push/PR
@@ -88,16 +88,6 @@ Visit: [http://localhost:8000](http://localhost:8000)
   - `.pytest_cache/`
   - `ec2-user@*`
 - GitHub Actions securely connects using encrypted secrets
-
----
-
-## 📦 Final Checklist
-
-- ✅ CI/CD works on `main`
-- ✅ Coverage enforced
-- ✅ Deployment tested on EC2
-- ✅ Repo ready for public delivery
-- ✅ Other repos set to private
 
 ---
 
