@@ -8,7 +8,7 @@ def read_root():
 
 @app.get("/ping")
 def ping():
-    return {"message": "pong second time"}
+    return {"message": "This is pong"}
 
 @app.get("/hello/{name}")
 def say_hello(name: str):
