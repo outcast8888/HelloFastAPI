@@ -11,9 +11,13 @@ def test_read_root():
 def test_ping():
     response = client.get("/ping")
     assert response.status_code == 200
-    assert response.json() == {"message": "pong second time"}
+    assert response.json() == {"message": "This is pong"}
 
 def test_hello_name():
-    response = client.get("/hello/Alex")
+    response = client.get("/hello/inigo_montoya")
     assert response.status_code == 200
-    assert response.json() == {"message": "Hello, Alex!"}
+    assert response.json() == {"message": "Hello, inigo montoya!"}
+
+def test_invalid_path():
+    response = client.get("/notfound")
+    assert response.status_code == 404
