@@ -10,7 +10,7 @@ A simple, production-ready FastAPI app with CI/CD, code coverage, and EC2 deploy
 
 ## 📡 Live Demo & Source
 
-- 🌐 App: [http://13.217.33.226](http://13.217.33.226/)
+- 🌐 App: [http://52.205.110.60](http://52.205.110.60/)
 - 🗂️ GitHub: [HelloFastAPI](https://github.com/outcast8888/HelloFastAPI)
 
 ---
