@@ -14,7 +14,7 @@ def test_ping():
     assert response.json() == {"message": "This is pong"}
 
 def test_hello_name():
-    response = client.get("/hello/inigo_montoya")
+    response = client.get("/hello/inigo montoya")
     assert response.status_code == 200
     assert response.json() == {"message": "Hello, inigo montoya!"}
 
