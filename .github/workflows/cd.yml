@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-    needs: test  # Optional if splitting from CI — skip if workflows are separate
+    # needs: test  # Optional if splitting from CI — skip if workflows are separate
 
     steps:
       - name: Checkout code
